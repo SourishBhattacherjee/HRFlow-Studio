@@ -1,0 +1,98 @@
+.sidebar {
+  width: 300px;
+  background: #1e293b;
+  border-right: 1px solid #334155;
+  display: flex;
+  flex-direction: column;
+  padding: 24px;
+  height: 100%;
+}
+
+.sidebar-header {
+  margin-bottom: 24px;
+}
+
+.sidebar-header h2 {
+  font-size: 18px;
+  color: #f8fafc;
+  margin-bottom: 4px;
+}
+
+.sidebar-header p {
+  font-size: 13px;
+  color: #94a3b8;
+}
+
+.nodes-list {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  flex: 1;
+}
+
+.dnd-node {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 12px;
+  background: #0f172a;
+  border: 1px solid #334155;
+  border-radius: 8px;
+  cursor: grab;
+  transition: all 0.2s ease;
+}
+
+.dnd-node:hover {
+  border-color: #6366f1;
+  background: #1e293b;
+  transform: translateX(4px);
+}
+
+.dnd-node-icon {
+  width: 36px;
+  height: 36px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 6px;
+}
+
+.dnd-node-info {
+  display: flex;
+  flex-direction: column;
+}
+
+.dnd-node-label {
+  font-size: 14px;
+  font-weight: 500;
+  color: #f8fafc;
+}
+
+.dnd-node-desc {
+  font-size: 11px;
+  color: #64748b;
+}
+
+/* Sidebar Icons */
+.dnd-start .dnd-node-icon { background: rgba(34, 197, 94, 0.1); color: #22c55e; }
+.dnd-task .dnd-node-icon { background: rgba(59, 130, 246, 0.1); color: #3b82f6; }
+.dnd-approval .dnd-node-icon { background: rgba(234, 179, 8, 0.1); color: #eab308; }
+.dnd-automated .dnd-node-icon { background: rgba(168, 85, 247, 0.1); color: #a855f7; }
+.dnd-end .dnd-node-icon { background: rgba(239, 68, 68, 0.1); color: #ef4444; }
+
+.sidebar-footer {
+  margin-top: auto;
+  padding-top: 24px;
+}
+
+.help-card {
+  display: flex;
+  gap: 12px;
+  padding: 12px;
+  background: rgba(99, 102, 241, 0.1);
+  border: 1px solid rgba(99, 102, 241, 0.2);
+  border-radius: 8px;
+  color: #a5b4fc;
+  font-size: 12px;
+  line-height: 1.4;
+}

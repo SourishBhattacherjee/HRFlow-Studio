@@ -1,0 +1,52 @@
+.canvas-wrapper {
+  flex: 1;
+  height: 100%;
+  background: #0f172a;
+  position: relative;
+}
+
+.custom-controls {
+  background: #1e293b;
+  border: 1px solid #334155;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+}
+
+.custom-controls button {
+  background: #1e293b;
+  border-bottom: 1px solid #334155;
+  fill: #94a3b8;
+}
+
+.custom-controls button:hover {
+  background: #334155;
+}
+
+.custom-minimap {
+  background: #1e293b !important;
+  border: 1px solid #334155 !important;
+  border-radius: 8px !important;
+}
+
+.canvas-panel {
+  padding: 12px;
+}
+
+.canvas-badge {
+  background: rgba(99, 102, 241, 0.1);
+  border: 1px solid rgba(99, 102, 241, 0.2);
+  color: #a5b4fc;
+  padding: 6px 12px;
+  border-radius: 9999px;
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+}
+
+/* React Flow Grid Background */
+.react-flow__background {
+  background-image: radial-gradient(#334155 1px, transparent 0);
+  background-size: 20px 20px;
+}
