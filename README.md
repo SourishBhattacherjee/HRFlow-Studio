@@ -3,6 +3,7 @@
 [![Docker Support](https://img.shields.io/badge/Docker-v24.0.5-blue?logo=docker)](https://www.docker.com/)
 [![React Flow](https://img.shields.io/badge/Engine-React%20Flow%20v11-purple)](https://reactflow.dev/)
 [![TypeScript](https://img.shields.io/badge/Type_Safe-Strong-blue?logo=typescript)](https://www.typescriptlang.org/)
+[![Live Demo](https://img.shields.io/badge/Live_Demo-Vercel-success?logo=vercel)](https://hr-flow-studio.vercel.app/)
 
 ## 📝 Executive Summary
 HRFlow Studio is a next-generation, visual-first orchestration platform designed to streamline complex HR operations. By leveraging a node-based architecture, it empowers HR administrators to build, validate, and simulate mission-critical workflows—ranging from multi-stage onboarding to sophisticated approval matrices—without a single line of code.
