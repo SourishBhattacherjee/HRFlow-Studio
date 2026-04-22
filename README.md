@@ -12,7 +12,7 @@ HRFlow Studio is a next-generation, visual-first orchestration platform designed
 ## 🖼️ Visual Overview
 
 ### System Interface
-![Main Application Interface](https://via.placeholder.com/1200x600?text=HRFlow+Studio+Main+Dashboard+Screenshot)
+![Main Application Interface](image.png)
 *The unified dashboard featuring the Workflow Canvas, Component Sidebar, and real-time Sandbox Simulation.*
 
 ---
